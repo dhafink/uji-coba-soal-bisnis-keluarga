@@ -203,8 +203,9 @@ window.QUESTIONS.push(
     "Keluarga tetap pemilik; yang berubah adalah cara pengelolaannya."]
 },
 {
-  id: "T5-13", topic: 5, level: "kasus",
-  q: "Kasus Santoso: Doni dan Dina bekerja tanpa deskripsi jabatan yang jelas, dan gaji mereka ditentukan Andi secara lisan. Langkah profesionalisasi pertama yang paling tepat adalah…",
+  id: "T5-13", topic: 5, level: "kasus", kasus: "santoso",
+  ctx: "Doni (manajer operasional) dan Dina (pemasaran) bekerja tanpa deskripsi jabatan tertulis. Gaji mereka ditentukan Andi secara lisan, dan kinerjanya tidak pernah dievaluasi secara formal.",
+  q: "Langkah profesionalisasi pertama yang paling tepat adalah…",
   options: [
     "Memberikan saham kepada keduanya agar lebih semangat",
     "Mengganti keduanya dengan profesional dari luar",
@@ -220,8 +221,9 @@ window.QUESTIONS.push(
     null]
 },
 {
-  id: "T5-14", topic: 5, level: "kasus",
-  q: "Kasus Santoso: Sari mengelola keuangan toko, tetapi uang toko kadang “dipinjam” anggota keluarga tanpa catatan. Prinsip yang perlu ditegakkan adalah…",
+  id: "T5-14", topic: 5, level: "kasus", kasus: "santoso",
+  ctx: "Sari membantu mengelola keuangan toko. Namun, uang kas toko kadang “dipinjam” anggota keluarga untuk keperluan pribadi tanpa dicatat.",
+  q: "Bagaimana sebaiknya praktik “meminjam” kas toko ini disikapi dari sisi profesionalisme?",
   options: [
     "Boleh, selama yang meminjam keluarga inti",
     "Cukup saling percaya karena masih keluarga",
@@ -237,8 +239,9 @@ window.QUESTIONS.push(
     "Langkah ini tidak menjawab masalah pencatatan dan justru tidak adil."]
 },
 {
-  id: "T5-15", topic: 5, level: "kasus",
-  q: "Kasus Santoso: Eka (masih kuliah) ingin kelak bekerja di Rina Department Store. Saran yang paling profesional adalah…",
+  id: "T5-15", topic: 5, level: "kasus", kasus: "santoso",
+  ctx: "Eka (anak Sari dari pernikahan dengan Budi) masih kuliah dan ingin kelak bekerja di Rina Department Store.",
+  q: "Saran yang paling profesional untuk Eka adalah…",
   options: [
     "Menyelesaikan pendidikan yang relevan, mencari pengalaman kerja di luar perusahaan keluarga terlebih dahulu, lalu masuk melalui seleksi sesuai kebutuhan posisi",
     "Langsung menjadi manajer keuangan menggantikan ibunya setelah lulus",

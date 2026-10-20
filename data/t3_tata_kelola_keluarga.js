@@ -93,7 +93,7 @@ window.QUESTIONS.push(
     "Departemen HR yang khusus merekrut anggota keluarga"
   ],
   answer: 2,
-  explain: "Family office adalah entitas yang melayani kebutuhan finansial dan administratif keluarga pemilik: mengelola portofolio investasi, perencanaan pajak dan warisan, kegiatan filantropi, serta administrasi aset. Biasanya dibentuk oleh keluarga yang sudah besar dan kaya (tahap cousin consortium).",
+  explain: "Family office adalah entitas yang melayani kebutuhan finansial dan administratif keluarga pemilik: mengelola portofolio investasi, perencanaan pajak dan warisan, kegiatan filantropi, serta administrasi aset. Biasanya dibentuk oleh keluarga yang sudah besar dan kaya (tahap cousin consortium). Slide kuliah Kepemimpinan menampilkan contohnya: Family Assembly (Family Council), Family Office (investasi; pajak, akuntansi, hukum; filantropi), dan Family Business (holding & operating company) sebagai tiga bagian yang terpisah.",
   why: [
     "Family office bukan kantor pusat operasional bisnis.",
     "Ini sebuah lembaga/organisasi, bukan sekadar ruangan.",
@@ -202,8 +202,9 @@ window.QUESTIONS.push(
     null]
 },
 {
-  id: "T3-13", topic: 3, level: "kasus",
-  q: "Kasus Santoso: keluarga belum memiliki aturan tertulis. Doni dan Dina bekerja tanpa saham, sementara Eka dan Fani kelak mungkin ingin masuk ke toko. Langkah awal yang paling tepat adalah…",
+  id: "T3-13", topic: 3, level: "kasus", kasus: "santoso",
+  ctx: "Keluarga Santoso belum memiliki aturan tertulis apa pun tentang hubungan keluarga dengan bisnis. Doni dan Dina sudah bekerja di toko tanpa saham, sementara Eka (kuliah) dan Fani (sekolah) kelak mungkin ingin ikut masuk.",
+  q: "Langkah awal tata kelola keluarga yang paling tepat adalah…",
   options: [
     "Langsung mengangkat Eka dan Fani sebagai manajer agar adil",
     "Melarang semua cucu bekerja di toko",
@@ -219,24 +220,27 @@ window.QUESTIONS.push(
     null]
 },
 {
-  id: "T3-14", topic: 3, level: "kasus",
-  q: "Kasus Santoso: Sari memiliki anak dari dua pernikahan (Eka dari Budi, Fani dari Rudi). Isu apa yang paling penting diatur dalam konstitusi keluarga terkait hal ini?",
+  id: "T3-14", topic: 3, level: "kasus", kasus: "santoso",
+  ctx: "Sari (pemilik 25% saham) memiliki anak dari dua pernikahan: Eka dari pernikahan dengan Budi (sudah bercerai) dan Fani dari pernikahan dengan Rudi (suaminya sekarang).",
+  fig: "geno", figCap: "Genogram Keluarga Santoso",
+  q: "Isu apa yang paling penting diatur dalam konstitusi keluarga terkait kondisi cabang keluarga Sari?",
   options: [
     "Pewarisan saham Sari dan peran pasangan/mantan pasangan dalam bisnis, agar saham tidak berpindah ke pihak yang tidak diinginkan dan anak-anak diperlakukan adil",
-    "Warna seragam karyawan toko",
-    "Strategi promosi media sosial",
-    "Jumlah cabang toko yang akan dibuka"
+    "Ketentuan bahwa Budi dan Rudi otomatis mendapat posisi manajer di toko sebagai bentuk penghargaan",
+    "Ketentuan bahwa hanya anak dari pernikahan pertama (Eka) yang berhak atas saham Sari",
+    "Tidak perlu diatur, karena saham Sari otomatis dibagi rata ke seluruh anggota keluarga Santoso"
   ],
   answer: 0,
-  explain: "Keluarga dengan perceraian dan pernikahan kembali (blended family) rentan menghadapi sengketa kepemilikan. Konstitusi keluarga, yang diperkuat perjanjian pemegang saham, dapat mengatur siapa yang boleh memiliki saham (mis. hanya keturunan langsung), hak pasangan, dan perlakuan adil bagi Eka dan Fani.",
+  explain: "Keluarga dengan perceraian dan pernikahan kembali (blended family) rentan menghadapi sengketa kepemilikan. Konstitusi keluarga, yang diperkuat perjanjian pemegang saham, dapat mengatur siapa yang boleh memiliki saham (mis. hanya keturunan langsung), hak pasangan/mantan pasangan, dan perlakuan adil bagi Eka dan Fani.",
   why: [null,
-    "Itu keputusan operasional, bukan isu tata kelola keluarga.",
-    "Itu strategi pemasaran (wilayah manajemen).",
-    "Itu keputusan strategi bisnis, bukan isu hubungan keluarga dengan kepemilikan."]
+    "Posisi di perusahaan harus berbasis kompetensi (meritokrasi), bukan status pernikahan. Lagi pula Budi dan Rudi tidak pernah terlibat di bisnis.",
+    "Membeda-bedakan anak berdasarkan pernikahan orang tuanya tidak adil dan justru memicu konflik antar-saudara seibu.",
+    "Tanpa aturan, pewarisan mengikuti hukum waris/wasiat dan bisa memicu sengketa. Saham juga tidak otomatis dibagi ke seluruh keluarga besar."]
 },
 {
-  id: "T3-15", topic: 3, level: "kasus",
-  q: "Kasus Santoso: perdebatan Andi dan Sari tentang pengelolaan keuangan toko sering terbawa ke acara makan malam keluarga dan membuat suasana tegang. Prinsip tata kelola apa yang perlu diterapkan?",
+  id: "T3-15", topic: 3, level: "kasus", kasus: "santoso",
+  ctx: "Andi (pengelola utama) dan Sari (pengelola keuangan) sering berdebat soal pengelolaan keuangan toko. Perdebatan itu kerap terbawa ke acara makan malam keluarga sehingga suasana menjadi tegang.",
+  q: "Prinsip tata kelola apa yang perlu diterapkan?",
   options: [
     "Prinsip transparansi pasar modal",
     "Pemisahan forum: urusan bisnis dibahas di forum bisnis (rapat manajemen/pemegang saham), urusan keluarga di forum keluarga",

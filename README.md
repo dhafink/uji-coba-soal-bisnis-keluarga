@@ -25,9 +25,13 @@ Progres dan riwayat jawaban tersimpan di browser masing-masing. Tidak perlu akun
 Shortcut keyboard: `1`–`4` atau `A`–`D` untuk memilih jawaban, `Enter` untuk lanjut.
 
 ## Catatan materi
-Soal disusun dari literatur standar bisnis keluarga (Tagiuri & Davis, Gersick dkk., McGoldrick & Gerson,
-Pedoman GCG KNKG, UU No. 40/2007 tentang PT, Sonnenfeld, Handler, Lansberg, dll.) ditambah studi kasus Keluarga Santoso
-(Tugas 1). Soal-soal ini adalah bahan latihan, bukan bocoran soal ujian. Tetap cocokkan dengan slide dan catatan kuliah.
+- **Topik 6 & 7** disusun dari slide kuliah: *Work as professional in family business* (FBN Asia) dan
+  *Kepemimpinan dalam Family Business* (Rainier Turangan), termasuk studi kasus Dwi & Tri. Soal-soal ini diberi label **Slide dosen**.
+- **Topik 1–5** disusun dari literatur standar bisnis keluarga (Tagiuri & Davis, Gersick dkk., McGoldrick & Gerson,
+  Pedoman GCG KNKG, UU No. 40/2007 tentang PT, dll.) ditambah studi kasus Keluarga Santoso (Tugas 1).
+- Soal kasus dilengkapi kotak ringkasan kasus, dan soal genogram/3-circle dilengkapi gambar.
+
+Soal-soal ini adalah bahan latihan, bukan bocoran soal ujian. Tetap cocokkan dengan slide dan catatan kuliah.
 
 ## Menjalankan di komputer sendiri
 Double-click `jalankan.bat` (butuh Python), lalu buka http://localhost:8765.

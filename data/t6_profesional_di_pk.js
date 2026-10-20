@@ -1,255 +1,236 @@
 // Topik 6 — Profesional yang Bekerja di Perusahaan Keluarga
+// Sumber utama: slide "Sharing Session – Work as professional in family business" (FBN Asia, Oktober 2026)
 window.QUESTIONS.push(
 {
-  id: "T6-01", topic: 6, level: "konsep",
-  q: "Dalam konteks perusahaan keluarga, istilah glass ceiling bagi profesional non-keluarga berarti…",
+  id: "T6-01", topic: 6, level: "konsep", src: "slide",
+  q: "Menurut materi, manakah kelompok yang SELURUHNYA merupakan keunggulan (advantages) bisnis keluarga dibanding jenis bisnis lain?",
   options: [
-    "Batas gaji maksimum yang ditetapkan pemerintah",
-    "Aturan tertulis yang melarang karyawan non-keluarga naik pangkat",
-    "Batas tak terlihat: posisi puncak (mis. CEO/direktur utama) secara tidak tertulis dicadangkan untuk keluarga, sehingga karier profesional “mentok”",
-    "Batas maksimum jam kerja dalam seminggu"
-  ],
-  answer: 2,
-  explain: "Glass ceiling adalah hambatan karier yang tidak tertulis tetapi nyata. Banyak profesional di perusahaan keluarga merasa jabatan tertinggi pasti diberikan kepada anggota keluarga. Hal ini menurunkan motivasi dan menyulitkan perusahaan menarik talenta terbaik.",
-  why: [
-    "Ini bukan soal regulasi gaji.",
-    "Disebut “kaca” justru karena hambatannya tidak tertulis atau tidak terlihat.",
-    null,
-    "Ini bukan soal jam kerja."]
-},
-{
-  id: "T6-02", topic: 6, level: "konsep",
-  q: "Manakah yang termasuk tantangan utama yang dihadapi profesional non-keluarga di perusahaan keluarga?",
-  options: [
-    "Kepercayaan keluarga yang harus dibangun, jenjang karier terbatas, wewenang yang tidak jelas, dan risiko terseret konflik keluarga",
-    "Kelebihan wewenang dan terlalu banyak saham yang diberikan",
-    "Tidak pernah berinteraksi dengan pemilik",
-    "Proses pengambilan keputusan yang selalu terlalu formal"
+    "Stability, Commitment, Flexibility, Long-term Outlook",
+    "Stability, Nepotism, Flexibility, Lack of Structure",
+    "Commitment, Conflicts Between Family Members, Succession Planning, Flexibility",
+    "Long-term Outlook, Lack of Family Interest, Group Think, Commitment"
   ],
   answer: 0,
-  explain: "Profesional sering dianggap “orang luar” (outsider) sehingga perlu waktu untuk dipercaya. Selain itu, keputusan penting kadang dibuat di meja makan keluarga (asimetri informasi), wewenangnya bisa dilangkahi anggota keluarga, dan ia bisa terjebak dalam persaingan antar-anggota keluarga.",
+  explain: "Slide membagi karakteristik bisnis keluarga menjadi Advantages: Stability, Commitment, Flexibility, dan Long-term Outlook. Disadvantages-nya: Lack of Family Interest, Conflicts Between Family Members, Lack of Structure, Nepotism, dan Succession Planning (rencana suksesi yang tidak jelas).",
   why: [null,
-    "Masalah yang umum justru kebalikannya: wewenang terbatas dan jarang diberi saham.",
-    "Profesional justru sering berinteraksi sangat dekat dengan pemilik.",
-    "Perusahaan keluarga justru sering terlalu informal."]
+    "Nepotism dan Lack of Structure termasuk disadvantages.",
+    "Conflicts Between Family Members dan Succession Planning termasuk disadvantages.",
+    "Lack of Family Interest termasuk disadvantages, dan Group Think termasuk “con's” bekerja di bisnis keluarga."]
 },
 {
-  id: "T6-03", topic: 6, level: "konsep",
-  q: "Menurut teori stewardship, manajer (termasuk profesional non-keluarga) dipandang sebagai…",
-  options: [
-    "Individu oportunis yang harus diawasi ketat dengan kontrak dan insentif",
-    "“Pelayan” (steward) yang termotivasi secara intrinsik untuk bertindak demi kepentingan organisasi, sehingga pendekatan yang tepat adalah kepercayaan dan pelibatan",
-    "Pihak yang tidak berperan dalam keberhasilan perusahaan",
-    "Calon pemilik mayoritas perusahaan"
-  ],
-  answer: 1,
-  explain: "Teori stewardship (Davis, Schoorman & Donaldson, 1997) berasumsi bahwa manajer memiliki motivasi pro-organisasi: pencapaian, tanggung jawab, dan identifikasi dengan perusahaan. Karena itu, memberi kepercayaan, otonomi, dan pelibatan dalam visi perusahaan akan menghasilkan kinerja terbaik.",
+  id: "T6-02", topic: 6, level: "aplikasi", src: "slide",
+  q: "Perusahaan non-keluarga biasanya menyusun target untuk kuartal berikutnya, sedangkan perusahaan keluarga bisa memikirkan tujuan hingga puluhan tahun ke depan. Menurut materi, ini adalah keunggulan…",
+  options: ["Stability", "Flexibility", "Commitment", "Long-term Outlook"],
+  answer: 3,
+  explain: "Long-term Outlook: perusahaan keluarga tidak dikejar target kuartalan sehingga bisa berpikir lintas dekade, dan perspektif jangka panjang ini membentuk budaya pengambilan keputusan yang jelas. Bedakan dengan Stability (kepemimpinan yang bertahan lama), Flexibility (anggota bisa mengerjakan tugas di luar perannya), dan Commitment (komitmen dan akuntabilitas terhadap bisnis dan keluarga).",
   why: [
-    "Itu asumsi teori agensi, yang berlawanan dengan teori stewardship.",
-    null,
-    "Teori ini justru menekankan peran penting manajer.",
-    "Stewardship membahas motivasi, bukan kepemilikan saham."]
+    "Stability menyangkut pemimpin yang menjabat bertahun-tahun; pergantian baru terjadi karena pensiun, sakit, atau meninggal.",
+    "Flexibility menyangkut anggota yang bisa mengambil tugas di luar peran yang sudah ditentukan.",
+    "Commitment menyangkut kecenderungan berkomitmen dan akuntabel karena bisnis juga menyangkut keluarga.",
+    null]
 },
 {
-  id: "T6-04", topic: 6, level: "konsep",
-  q: "Dalam teori agensi, hubungan antara pemilik keluarga (prinsipal) dan manajer profesional (agen) memerlukan…",
-  options: [
-    "Kepercayaan penuh tanpa pengawasan",
-    "Pemberian seluruh saham kepada manajer",
-    "Mekanisme pengawasan dan insentif agar kepentingan manajer selaras dengan kepentingan pemilik",
-    "Larangan bagi manajer untuk mengambil keputusan apa pun"
-  ],
+  id: "T6-03", topic: 6, level: "aplikasi", src: "slide",
+  q: "Sebuah perusahaan keluarga berjalan hanya mengandalkan kepercayaan dan loyalitas. Tidak ada aturan internal tertulis, dan perusahaan juga kurang memperhatikan ketentuan hukum korporasi. Menurut materi, ini termasuk kelemahan…",
+  options: ["Nepotism", "Lack of Family Interest", "Lack of Structure", "Conflicts Between Family Members"],
   answer: 2,
-  explain: "Teori agensi (Jensen & Meckling, 1976) berasumsi bahwa agen bisa mengejar kepentingannya sendiri dan memiliki informasi lebih banyak daripada pemilik. Solusinya adalah monitoring (laporan, audit, board) dan insentif (bonus berbasis kinerja, kepemilikan atau phantom shares) untuk menyelaraskan kepentingan.",
+  explain: "Lack of Structure: karena bergantung pada kepercayaan dan loyalitas, bisnis keluarga sering tidak memiliki aturan internal yang memadai dan kurang memperhatikan hukum korporasi. Kelemahan ini menjadi alasan pentingnya profesionalisasi dan tata kelola.",
   why: [
-    "Itu lebih dekat ke asumsi teori stewardship; teori agensi menekankan perlunya kontrol.",
-    "Tidak realistis dan tidak diperlukan; cukup insentif yang selaras.",
+    "Nepotism adalah mempromosikan keluarga yang tidak memiliki pendidikan/keterampilan memadai.",
+    "Lack of Family Interest adalah generasi penerus yang tidak tertarik terlibat di bisnis.",
     null,
-    "Manajer tetap perlu wewenang untuk bekerja; yang diatur adalah pengawasan dan insentifnya."]
+    "Conflicts menyangkut kaburnya batas kehidupan keluarga dan pekerjaan, bukan ketiadaan aturan."]
 },
 {
-  id: "T6-05", topic: 6, level: "konsep",
-  q: "Konsep socioemotional wealth (SEW) dalam bisnis keluarga mengacu pada…",
+  id: "T6-04", topic: 6, level: "aplikasi", src: "slide",
+  q: "Pendiri sebuah perusahaan keluarga tiba-tiba sakit keras. Keluarga kebingungan karena belum pernah membahas siapa penggantinya. Menurut materi, situasi ini menunjukkan kelemahan…",
+  options: ["Succession planning", "Flexibility", "Lack of Family Interest", "Group think"],
+  answer: 0,
+  explain: "Slide menyebut bahwa banyak bisnis keluarga tidak memiliki rencana suksesi yang jelas. Ketika ada keadaan darurat (skandal, sakit, atau meninggal) dan pengganti harus segera ditunjuk, perusahaan kesulitan memutuskan siapa penerusnya.",
+  why: [null,
+    "Flexibility justru termasuk keunggulan bisnis keluarga.",
+    "Lack of Family Interest adalah generasi penerus yang tidak berminat; di kasus ini masalahnya belum ada rencana penerus.",
+    "Group think adalah kecenderungan keluarga berpandangan seragam, bukan soal pengganti pemimpin."]
+},
+{
+  id: "T6-05", topic: 6, level: "konsep", src: "slide",
+  q: "Salah satu kunci bagi profesional di bisnis keluarga adalah “Play in your room only”. Maksudnya adalah…",
   options: [
-    "Total kekayaan pribadi pemilik dalam bentuk uang",
-    "Nilai non-finansial yang diperoleh keluarga dari bisnis, seperti kendali, identitas, ikatan emosional, dan keinginan mewariskan kepada generasi berikut",
-    "Gaji dan bonus yang diterima manajer profesional",
-    "Program tanggung jawab sosial perusahaan (CSR)"
+    "Profesional sebaiknya bekerja di ruangannya sendiri dan menghindari interaksi dengan keluarga",
+    "Profesional memisahkan diskusi sesuai “ruangnya” (ruang manajemen, ruang pemilik, ruang keluarga, ruang dewan direksi) dan membatasi perannya di ruang manajemen",
+    "Profesional harus menguasai semua ruang agar pengaruhnya maksimal",
+    "Profesional hanya boleh membahas pekerjaan di rumah pemilik"
   ],
   answer: 1,
-  explain: "Gómez-Mejía dkk. (2007) menjelaskan bahwa keluarga sering mempertahankan SEW, kadang dengan mengorbankan keuntungan finansial. Dampaknya bagi profesional: keluarga bisa enggan menyerahkan kendali atau posisi puncak kepada orang luar demi menjaga identitas dan kendali keluarga.",
+  explain: "Menurut slide, setiap diskusi punya ruangnya sendiri. Eksekutif non-keluarga yang bertahan dan berkembang adalah yang tahu cara memisahkan bisnis ke dalam management room, owners' room, family room, dan room for the board of directors, lalu bermain di ruangnya sendiri (manajemen).",
   why: [
-    "SEW bersifat non-finansial.",
+    "Bukan berarti menghindari interaksi, melainkan tahu batas forum mana yang menjadi wilayahnya.",
     null,
-    "Itu kompensasi manajer, bukan SEW.",
-    "CSR berbeda; SEW adalah nilai emosional bagi keluarga pemilik."]
+    "Justru sebaliknya: profesional sebaiknya tidak mencampuri ruang keluarga atau ruang pemilik.",
+    "Tidak ada kaitannya dengan lokasi fisik; “room” adalah forum pengambilan keputusan."]
 },
 {
-  id: "T6-06", topic: 6, level: "aplikasi",
-  q: "Manakah strategi paling efektif untuk mempertahankan profesional non-keluarga yang berkinerja tinggi?",
+  id: "T6-06", topic: 6, level: "konsep", src: "slide",
+  q: "Mengapa materi menyarankan profesional untuk “Avoid proxy wars”?",
   options: [
-    "Tidak melibatkannya dalam rapat strategis agar rahasia keluarga terjaga",
-    "Memberi gaji lebih rendah karena “bekerja di perusahaan keluarga lebih nyaman”",
-    "Memperpanjang kontrak jangka pendek terus-menerus",
-    "Jalur karier dan kriteria promosi yang transparan, kompensasi kompetitif plus insentif jangka panjang, serta wewenang yang jelas"
+    "Karena profesional dilarang berpendapat dalam rapat",
+    "Karena perang harga dengan pesaing berbahaya bagi bisnis keluarga",
+    "Karena keputusan bisnis harus selalu diwakilkan kepada konsultan",
+    "Karena bersekutu dengan satu anggota/cabang keluarga berbahaya: keluarga bisa melampiaskan rivalitasnya dengan “menyingkirkan” eksekutif favorit kerabatnya"
   ],
   answer: 3,
-  explain: "Profesional bertahan jika melihat masa depan (jalur karier), merasa dihargai secara adil (kompensasi pasar dan insentif jangka panjang seperti bonus, bagi hasil, atau phantom shares), dan bisa bekerja efektif (wewenang dan peran yang jelas, dilibatkan dalam strategi).",
+  explain: "Proxy war adalah konflik antar-anggota keluarga yang dilakukan lewat “perantara”. Profesional yang dianggap orang kepercayaan satu pihak bisa menjadi sasaran pihak lain. Karena itu, profesional sebaiknya netral dan tidak memihak satu anggota atau cabang keluarga.",
   why: [
-    "Pengucilan dari keputusan penting membuat profesional merasa tidak dipercaya.",
-    "Kompensasi di bawah pasar membuat talenta pindah ke tempat lain.",
-    "Ketidakpastian kontrak menurunkan komitmen.",
+    "Profesional tetap boleh berpendapat secara objektif; yang dihindari adalah berpihak.",
+    "“Proxy wars” di sini merujuk pada konflik internal keluarga, bukan persaingan pasar.",
+    "Tidak ada kaitannya dengan mewakilkan keputusan kepada konsultan.",
     null]
 },
 {
-  id: "T6-07", topic: 6, level: "konsep",
-  q: "Phantom shares sering digunakan perusahaan keluarga sebagai insentif bagi profesional. Apa itu?",
+  id: "T6-07", topic: 6, level: "aplikasi", src: "slide",
+  q: "Seorang manajer non-keluarga yang sangat berprestasi berharap kelak menjadi CEO. Padahal, keluarga sudah menyiapkan salah satu anggotanya di jalur kepemimpinan (leadership pipeline) untuk posisi tersebut. Sikap yang tepat menurut prinsip “Know your genetics limit” adalah…",
   options: [
-    "Saham palsu yang ilegal",
-    "Saham yang diberikan gratis lengkap dengan hak suara di RUPS",
-    "Saham milik karyawan yang sudah meninggal",
-    "Insentif yang nilainya mengikuti nilai/harga saham perusahaan, tetapi tanpa memberikan kepemilikan saham dan hak suara yang sesungguhnya"
-  ],
-  answer: 3,
-  explain: "Phantom shares (saham bayangan) memberi profesional imbalan yang naik-turun sesuai nilai perusahaan, sehingga kepentingannya selaras dengan pemilik. Keluarga tetap memegang seluruh kepemilikan dan kendali. Instrumen ini cocok untuk bisnis yang ingin menjaga kendali keluarga (terkait SEW).",
-  why: [
-    "Phantom shares adalah instrumen kompensasi yang legal, bukan saham palsu.",
-    "Justru tidak ada hak suara; itu yang membedakannya dari saham sungguhan.",
-    "Tidak ada hubungannya dengan karyawan yang meninggal.",
-    null]
-},
-{
-  id: "T6-08", topic: 6, level: "aplikasi",
-  q: "Dua kakak-beradik pemilik sedang berselisih, dan masing-masing meminta dukungan General Manager profesional. Sikap GM yang paling tepat adalah…",
-  options: [
-    "Memihak pemegang saham terbesar agar posisinya aman",
-    "Tetap netral, tidak memihak, mengarahkan perselisihan ke forum yang tepat (family council/board), dan fokus pada kepentingan perusahaan",
-    "Langsung mengundurkan diri",
-    "Membagikan informasi perselisihan kepada karyawan agar transparan"
-  ],
-  answer: 1,
-  explain: "Profesional yang terseret ke kubu tertentu (triangulasi) kehilangan kepercayaan dari pihak lain dan bisa menjadi korban saat konflik selesai. Posisi terbaik adalah netral, objektif, dan mendorong penyelesaian melalui mekanisme tata kelola.",
-  why: [
-    "Memihak berisiko besar: kehilangan kepercayaan pihak lain dan memperuncing konflik.",
-    null,
-    "Belum tentu diperlukan; profesional bisa tetap efektif dengan bersikap netral.",
-    "Membocorkan konflik keluarga merusak kepercayaan dan stabilitas organisasi."]
-},
-{
-  id: "T6-09", topic: 6, level: "aplikasi",
-  q: "Seorang manajer berpengalaman dari perusahaan multinasional baru bergabung. Ia langsung memangkas program sosial yang sudah puluhan tahun dijalankan keluarga karena “tidak efisien”, dan keluarga menjadi kecewa. Kompetensi apa yang kurang dari manajer ini?",
-  options: [
-    "Kompetensi kultural: memahami nilai, tradisi, dan tujuan non-finansial keluarga pemilik",
-    "Kompetensi teknis akuntansi",
-    "Kemampuan bahasa asing",
-    "Sertifikasi profesi"
+    "Memiliki gambaran realistis tentang batas jalur kariernya, karena posisi puncak cenderung disiapkan untuk anggota keluarga",
+    "Terus bermain politik kantor sampai berhasil menjadi CEO",
+    "Menjatuhkan reputasi calon penerus keluarga",
+    "Menuntut saham mayoritas sebagai syarat bertahan"
   ],
   answer: 0,
-  explain: "Keputusan manajer itu mungkin benar secara efisiensi, tetapi mengabaikan makna program tersebut bagi identitas keluarga (SEW). Hall & Nordqvist menyebut bahwa profesional di bisnis keluarga perlu kompetensi kultural selain kompetensi formal.",
+  explain: "Slide menegaskan: bahkan pemain politik kantor paling hebat tidak akan mendapat posisi puncak jika ada anggota keluarga di leadership pipeline yang disiapkan menjadi CEO. Profesional perlu realistis tentang “tujuan akhir” kariernya. Dalam literatur, kondisi ini dikenal sebagai glass ceiling bagi non-keluarga.",
   why: [null,
-    "Masalahnya bukan pada kemampuan menghitung, melainkan pemahaman nilai keluarga.",
-    "Tidak relevan dengan kasus ini.",
-    "Ia sudah berpengalaman; kekurangannya ada pada sisi kultural."]
+    "Slide justru menyebut politik kantor tidak akan mengalahkan calon dari keluarga.",
+    "Tindakan ini tidak etis dan merusak kepercayaan keluarga.",
+    "Tidak realistis dan tidak sejalan dengan prinsip yang diajarkan."]
 },
 {
-  id: "T6-10", topic: 6, level: "konsep",
-  q: "Apa daya tarik bekerja di perusahaan keluarga bagi seorang profesional?",
+  id: "T6-08", topic: 6, level: "konsep", src: "slide",
+  q: "Menurut prinsip “Give credit and invoke the family's higher angle”, eksekutif non-keluarga yang bertahan paling lama adalah mereka yang…",
   options: [
-    "Jaminan otomatis menjadi pemilik saham",
-    "Tidak ada evaluasi kinerja",
-    "Orientasi jangka panjang, pengambilan keputusan yang cepat, akses langsung ke pemilik, serta budaya kekeluargaan yang stabil",
-    "Tidak ada tekanan untuk mencapai target"
+    "Selalu menonjolkan prestasi pribadi agar diakui keluarga",
+    "Menolak pengaruh nilai-nilai keluarga dalam keputusan bisnis",
+    "Secara naluriah mengalihkan pujian atas keberhasilan kepada keluarga",
+    "Hanya bekerja keras ketika dijanjikan saham"
   ],
   answer: 2,
-  explain: "Perusahaan keluarga yang dikelola baik menawarkan stabilitas, nilai-nilai yang kuat, birokrasi yang lebih ramping, dan horizon jangka panjang (tidak dikejar target kuartalan pasar modal). Daya tarik inilah yang perlu ditonjolkan saat merekrut profesional.",
+  explain: "Eksekutif non-keluarga yang awet adalah yang tahu cara “mengalihkan kredit” dari dirinya kepada keluarga dan mengaitkan keberhasilan dengan nilai/visi keluarga (higher angle). Hal ini menjaga rasa memiliki keluarga atas bisnisnya.",
   why: [
-    "Kepemilikan tidak otomatis diberikan; inilah salah satu tantangannya.",
-    "Perusahaan keluarga yang profesional tetap melakukan evaluasi kinerja.",
+    "Kebalikan dari yang disarankan slide.",
+    "Profesional justru perlu mengaitkan keputusan dengan nilai dan visi keluarga.",
     null,
-    "Target tetap ada; perbedaannya ada pada horizon waktu yang lebih panjang."]
+    "Prinsip ini tentang pembagian kredit, bukan syarat kompensasi."]
 },
 {
-  id: "T6-11", topic: 6, level: "aplikasi",
-  q: "Pendiri tiba-tiba sakit, sementara anak-anaknya belum siap memimpin. Peran profesional non-keluarga yang paling sesuai adalah…",
+  id: "T6-09", topic: 6, level: "konsep", src: "slide",
+  q: "Profesional di bisnis keluarga biasanya memegang banyak informasi istimewa (privileged information). Sikap yang tepat menurut prinsip “Be highly discreet and competent” adalah…",
   options: [
-    "Otomatis menjadi pemilik mayoritas",
-    "Membubarkan dewan komisaris agar keputusan lebih cepat",
-    "Menghalangi anak-anak pendiri masuk ke perusahaan",
-    "Menjadi pemimpin sementara (bridge/interim CEO) yang menjalankan perusahaan sampai penerus keluarga siap, sekaligus membimbing mereka"
+    "Membagikan informasi kepada karyawan agar transparan",
+    "Menggunakan informasi itu untuk menekan keluarga",
+    "Menolak akses informasi agar terhindar dari masalah",
+    "Menjaga kerahasiaan dengan sangat hati-hati dan bekerja kompeten; membatasi peran di ruang manajemen tidak berarti tidak berdaya, karena informasi adalah kekuatan"
   ],
   answer: 3,
-  explain: "Profesional sering berperan sebagai “jembatan” antargenerasi: menjaga kinerja perusahaan selama masa transisi dan menjadi mentor bagi generasi penerus. Perannya sebaiknya diatur jelas (mandat, jangka waktu, dan indikator keberhasilan).",
+  explain: "Slide menegaskan bahwa membatasi pengaruh di management room tidak membuat eksekutif non-keluarga lemah. Posisinya memberi akses ke banyak informasi istimewa, dan information is power. Kuncinya adalah sangat menjaga kerahasiaan (discreet) dan menunjukkan kompetensi.",
   why: [
-    "Kepemilikan tetap milik keluarga; profesional menjalankan mandat manajemen.",
-    "Ini melemahkan tata kelola dan bukan kewenangan manajer.",
-    "Ini bertentangan dengan peran mentor dan merusak kepercayaan keluarga.",
+    "Informasi istimewa tidak boleh disebarkan sembarangan; ini merusak kepercayaan.",
+    "Tidak etis dan bertentangan dengan prinsip discreet.",
+    "Akses informasi diperlukan untuk bekerja; masalahnya ada pada cara menjaganya.",
     null]
 },
 {
-  id: "T6-12", topic: 6, level: "konsep",
-  q: "Apa dampak paling mungkin bila anggota keluarga diperlakukan istimewa (promosi, gaji, penilaian) tanpa dasar kinerja, terhadap profesional non-keluarga?",
+  id: "T6-10", topic: 6, level: "aplikasi", src: "slide",
+  q: "Seorang manajer non-keluarga harus menilai kinerja sepupu pemilik, yang kelak mungkin menjadi atasannya. Menurut materi, apa yang sebaiknya dilakukan?",
   options: [
-    "Motivasi profesional meningkat",
-    "Muncul persepsi ketidakadilan yang menurunkan komitmen dan meningkatkan turnover profesional",
-    "Tidak berpengaruh apa pun",
-    "Profesional menjadi semakin loyal"
+    "Tidak memberi umpan balik sama sekali agar aman",
+    "Memanfaatkan pihak luar yang netral (impartial outsiders), mis. konsultan atau penilai independen, dan berhati-hati dalam menyampaikan kebenaran",
+    "Memberi nilai sempurna supaya hubungan tetap baik",
+    "Mengumumkan kekurangannya di rapat terbuka agar adil"
   ],
   answer: 1,
-  explain: "Riset tentang keadilan organisasi di bisnis keluarga (mis. Barnett & Kellermanns, 2006) menunjukkan bahwa perlakuan istimewa terhadap keluarga yang tidak berbasis kinerja menurunkan rasa keadilan karyawan non-keluarga, sehingga komitmen turun dan talenta terbaik pergi.",
+  explain: "Slide menyebut bahwa memberi umpan balik di bisnis keluarga itu rumit, karena saudara atau sepupu yang dinilai bisa suatu hari menjadi bos. Karena itu disarankan memanfaatkan pihak luar yang netral, dan kehati-hatian (menyampaikan kebenaran secara “slant”/tidak frontal) adalah respons yang tepat.",
   why: [
-    "Ketidakadilan justru menurunkan motivasi.",
+    "Umpan balik tetap diperlukan; caranya yang perlu diatur.",
+    null,
+    "Penilaian yang tidak jujur merugikan perusahaan dan pengembangan anggota keluarga tersebut.",
+    "Cara frontal di forum terbuka berisiko merusak hubungan dan karier profesional."]
+},
+{
+  id: "T6-11", topic: 6, level: "aplikasi", src: "slide",
+  q: "Anak pemilik sering terlambat dan melanggar aturan, tetapi selalu dimaafkan, sementara karyawan lain langsung dikenai sanksi. Menurut materi, ini termasuk “con's” bekerja di bisnis keluarga, yaitu…",
+  options: ["Discipline", "Exclusion", "Group think", "Hierarchy"],
+  answer: 0,
+  explain: "Discipline: di sebagian bisnis keluarga, kerabat sedarah bisa mendapat “kesempatan kedua” atau lolos dari sanksi atas perilaku yang seharusnya dihukum. Ketidakadilan ini menurunkan moral karyawan non-keluarga.",
+  why: [null,
+    "Exclusion adalah perasaan karyawan non-keluarga menjadi “orang luar”; bisa menjadi dampaknya, tetapi istilah untuk kasus ini adalah Discipline.",
+    "Group think adalah keseragaman latar belakang dan pandangan anggota keluarga.",
+    "Hierarchy adalah transisi kekuasaan di antara anggota keluarga berperingkat berbeda yang membingungkan staf."]
+},
+{
+  id: "T6-12", topic: 6, level: "konsep", src: "slide",
+  q: "Menurut materi, salah satu “pro's” bekerja di bisnis keluarga adalah proses pengambilan keputusan yang lebih mudah. Mengapa demikian?",
+  options: [
+    "Karena semua keputusan diambil lewat voting seluruh karyawan",
+    "Karena tidak ada aturan sama sekali",
+    "Karena banyak bisnis keluarga memiliki struktur manajerial yang lebih kecil dengan lapisan yang lebih sedikit dibanding korporasi besar",
+    "Karena keputusan ditetapkan oleh pemerintah"
+  ],
+  answer: 2,
+  explain: "Pro's lain menurut slide: job availability, prior knowledge, profitability, relaxed environment, responsibility variety, small staff, team mindset, serta trust and security. Struktur yang ramping juga disebut di slide Kepemimpinan sebagai keunggulan: keputusan lebih cepat karena birokrasi minimal.",
+  why: [
+    "Bukan karena voting karyawan; alasannya lapisan manajemen yang sedikit.",
+    "Ketiadaan aturan justru termasuk kelemahan (Lack of Structure).",
+    null,
+    "Keputusan bisnis tidak ditetapkan pemerintah."]
+},
+{
+  id: "T6-13", topic: 6, level: "konsep", src: "slide",
+  q: "Jika seorang profesional tetap tertarik berkarier di bisnis keluarga, hal apa saja yang menurut materi perlu dipertimbangkan (things to consider)?",
+  options: [
+    "Jumlah anggota keluarga dan total aset pribadi pemilik",
+    "Jaminan menjadi CEO dalam lima tahun dan jumlah saham yang akan diberikan",
+    "Apakah ia boleh mengabaikan masukan keluarga",
+    "Apakah ada dewan direksi yang kuat, apakah karyawan keluarga kompeten, apakah kontribusi non-keluarga diakui, apakah budayanya cocok, dan bertanya sebanyak mungkin"
+  ],
+  answer: 3,
+  explain: "Slide merangkum things to consider: Is there a strong board of directors? Are the family employees qualified? Are non-family members recognized for their contribution? Does the culture fit with what you are looking for? Ask questions. Selain itu, profesional perlu memahami personal needs of the family dan “keeping the sparks alive” (menjaga semangat sambil menyeimbangkan banyak hal).",
+  why: [
+    "Aset pribadi pemilik tidak termasuk hal yang disarankan untuk dipertimbangkan.",
+    "Tidak realistis; posisi puncak sering disiapkan untuk keluarga (know your genetics limit).",
+    "Profesional justru perlu memahami kebutuhan dan nilai keluarga.",
+    null]
+},
+{
+  id: "T6-14", topic: 6, level: "konsep", src: "slide",
+  q: "Riset Barnett & Kellermanns (2006), yang dikutip di materi kuliah, menunjukkan apa yang terjadi bila karyawan non-keluarga merasa keputusan promosi lebih didorong oleh hubungan keluarga daripada prestasi?",
+  options: [
+    "Komitmen karyawan non-keluarga meningkat",
+    "Komitmen karyawan non-keluarga turun secara signifikan",
+    "Tidak ada pengaruh terhadap karyawan non-keluarga",
+    "Karyawan non-keluarga menjadi lebih loyal kepada keluarga"
+  ],
+  answer: 1,
+  explain: "Ketegangan nepotisme versus meritokrasi adalah salah satu pain point yang paling banyak diteliti. Ketika promosi dirasa ditentukan oleh hubungan keluarga, bukan merit, komitmen karyawan non-keluarga turun signifikan. Karena itu, kriteria promosi yang transparan dan adil sangat penting.",
+  why: [
+    "Persepsi ketidakadilan justru menurunkan komitmen.",
     null,
     "Persepsi keadilan sangat memengaruhi perilaku karyawan.",
-    "Loyalitas tumbuh dari perlakuan adil, bukan sebaliknya."]
+    "Loyalitas tumbuh dari perlakuan adil, bukan dari nepotisme."]
 },
 {
-  id: "T6-13", topic: 6, level: "aplikasi",
-  q: "Sebelum menerima tawaran kerja sebagai manajer senior di perusahaan keluarga, hal apa yang paling penting dipastikan oleh seorang profesional?",
+  id: "T6-15", topic: 6, level: "kasus", kasus: "santoso",
+  ctx: "Rina Department Store merekrut manajer keuangan profesional (non-keluarga). Dalam sebuah rapat, Andi dan Sari berselisih soal rencana pembagian warisan saham Ibu Rina. Masing-masing lalu meminta manajer itu mendukung pendapatnya.",
+  q: "Berdasarkan prinsip di materi, apa yang sebaiknya dilakukan manajer keuangan tersebut?",
   options: [
-    "Kejelasan wewenang dan jalur pelaporan, prospek karier, rencana suksesi keluarga, serta nilai dan tujuan keluarga pemilik",
-    "Hanya besaran gaji pokok, karena hal lain tidak penting",
-    "Jumlah saham yang pasti akan diberikan dalam satu tahun",
-    "Apakah ia boleh mengabaikan masukan keluarga"
-  ],
-  answer: 0,
-  explain: "Banyak kegagalan profesional di bisnis keluarga terjadi karena ekspektasi yang tidak jelas: siapa atasannya (anggota keluarga mana), batas wewenangnya, peluang naik jabatan, dan apakah keluarga benar-benar siap berbagi kendali. Hal-hal ini perlu dipastikan sejak awal.",
-  why: [null,
-    "Gaji penting, tetapi kejelasan peran dan wewenang lebih menentukan keberhasilan.",
-    "Saham jarang dijanjikan; menuntutnya di awal kurang realistis.",
-    "Profesional justru perlu menghormati dan memahami pandangan keluarga pemilik."]
-},
-{
-  id: "T6-14", topic: 6, level: "kasus",
-  q: "Kasus Santoso: Rina Department Store berencana merekrut manajer keuangan profesional untuk menggantikan peran Sari secara bertahap. Apa yang paling menentukan keberhasilannya?",
-  options: [
-    "Tidak memberi akses ke laporan keuangan lengkap karena rahasia keluarga",
-    "Menyuruh manajer tersebut melapor kepada semua anggota keluarga sekaligus (Andi, Sari, Doni, Dina, Maya)",
-    "Memberi kontrak tiga bulan tanpa kejelasan peran",
-    "Mendefinisikan wewenang dan jalur pelaporan secara tertulis, melakukan serah terima dari Sari, memberi akses informasi penuh, dan menerapkan evaluasi kinerja yang objektif"
-  ],
-  answer: 3,
-  explain: "Profesional membutuhkan mandat yang jelas, satu jalur pelaporan, dan informasi yang memadai. Sari tetap berperan sebagai pemegang saham yang mengawasi, bukan lagi pelaksana harian, sehingga terjadi pemisahan peran Ownership dan Business.",
-  why: [
-    "Manajer keuangan tidak bisa bekerja tanpa akses data; ini menunjukkan ketidakpercayaan.",
-    "Banyak atasan membuat instruksi saling bertentangan dan menyeret profesional ke politik keluarga.",
-    "Ketidakjelasan membuat profesional berkualitas enggan bergabung atau cepat keluar.",
-    null]
-},
-{
-  id: "T6-15", topic: 6, level: "kasus",
-  q: "Kasus Santoso: seorang karyawan senior non-keluarga yang sudah 15 tahun bekerja merasa tidak akan pernah naik jabatan karena Doni dan Dina selalu diprioritaskan. Langkah paling tepat bagi Andi untuk mempertahankannya adalah…",
-  options: [
-    "Menjanjikan posisi direktur utama meskipun tidak berniat menepatinya",
-    "Mengabaikannya karena karyawan lama pasti tetap loyal",
-    "Menjelaskan secara terbuka jalur karier yang realistis, memberi tanggung jawab dan insentif yang sepadan, serta menerapkan kriteria promosi yang sama bagi keluarga dan non-keluarga",
-    "Mempercepat promosi Doni untuk menegaskan hierarki keluarga"
+    "Mendukung Andi karena ia pengelola utama",
+    "Mendukung siapa pun yang memberi bonus lebih besar",
+    "Tidak ikut campur dalam urusan warisan (ruang keluarga/pemilik), tetap netral, dan cukup menyediakan data keuangan yang objektif bila diminta",
+    "Menyarankan agar saham Ibu Rina dijual ke pihak luar"
   ],
   answer: 2,
-  explain: "Kejujuran tentang peluang karier, penghargaan yang adil (mis. bonus kinerja atau bagi hasil), dan kriteria promosi yang transparan menjawab masalah glass ceiling dan persepsi ketidakadilan, sekaligus mempertahankan pengetahuan dan pengalaman karyawan senior.",
+  explain: "Pembagian warisan saham adalah urusan family room/owners' room, bukan management room. Sesuai prinsip “Play in your room only” dan “Avoid proxy wars”, manajer sebaiknya tidak memihak, menjaga netralitas, dan berkontribusi lewat data objektif dari ruang manajemen.",
   why: [
-    "Janji palsu merusak kepercayaan saat terbongkar.",
-    "Rasa tidak adil yang dibiarkan bisa berujung pada karyawan yang keluar atau tidak lagi termotivasi.",
+    "Memihak satu anggota keluarga berisiko menjadikannya sasaran “proxy war”.",
+    "Tidak etis, dan tetap berarti memihak dalam konflik keluarga.",
     null,
-    "Langkah ini memperkuat persepsi nepotisme."]
+    "Ini keputusan pemilik dan keluarga; profesional tidak berwenang mengarahkannya."]
 }
 );

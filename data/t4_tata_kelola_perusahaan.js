@@ -203,8 +203,9 @@ window.QUESTIONS.push(
     "Pengawasan rutin adalah tugas Dewan Komisaris."]
 },
 {
-  id: "T4-14", topic: 4, level: "kasus",
-  q: "Kasus Santoso: Rina Department Store ingin memperbaiki tata kelola perusahaannya, tetapi tidak berencana go public. Langkah yang paling realistis adalah…",
+  id: "T4-14", topic: 4, level: "kasus", kasus: "santoso",
+  ctx: "Rina Department Store dimiliki Ibu Rina (50%), Andi (25%), dan Sari (25%), serta dikelola sehari-hari oleh Andi dan Sari. Keluarga ingin memperbaiki tata kelola perusahaan, tetapi tidak berencana go public.",
+  q: "Langkah perbaikan tata kelola perusahaan yang paling realistis adalah…",
   options: [
     "Semua jabatan (pemilik, komisaris, direktur) dipegang Ibu Rina agar terkendali",
     "Segera mencatatkan saham di bursa agar wajib menerapkan GCG",
@@ -220,8 +221,9 @@ window.QUESTIONS.push(
     "Ini melanggar prinsip transparansi dan akuntabilitas."]
 },
 {
-  id: "T4-15", topic: 4, level: "kasus",
-  q: "Kasus Santoso: kepemilikan Ibu Rina 50%, Andi 25%, Sari 25%. Andi sebagai pengelola utama memutuskan ekspansi besar (membuka cabang dengan pinjaman bank besar) tanpa melibatkan Ibu Rina dan Sari. Bagaimana seharusnya?",
+  id: "T4-15", topic: 4, level: "kasus", kasus: "santoso",
+  ctx: "Kepemilikan: Ibu Rina 50%, Andi 25%, Sari 25%. Andi, sebagai pengelola utama, memutuskan ekspansi besar (membuka cabang baru dengan pinjaman bank yang besar) tanpa melibatkan Ibu Rina dan Sari.",
+  q: "Bagaimana seharusnya keputusan ekspansi tersebut diambil?",
   options: [
     "Andi berhak penuh karena ia pengelola utama",
     "Keputusan strategis besar seharusnya dibawa ke forum pemegang saham (RUPS) dan/atau dewan sesuai anggaran dasar, karena menyangkut hak Ibu Rina dan Sari yang bersama-sama menguasai 75% saham",

@@ -116,7 +116,52 @@ select{font:inherit;color:inherit;background:var(--surface-2);border:1px solid v
   :root:not([data-theme="light"]) .chip.lv-kasus{background:#3a2f1a;color:#e9c37a}
   :root:not([data-theme="light"]) .chip.lv-aplikasi{background:#1e2c3e;color:#9cc0ec}
 }
+.chip.src{background:#e4e9f7;color:#2f4a8a}
+:root[data-theme="dark"] .chip.src{background:#1f2a40;color:#9db4ea}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .chip.src{background:#1f2a40;color:#9db4ea} }
 .qtext{font-size:18.5px;line-height:1.55;font-weight:600;margin:0 0 18px;white-space:pre-line}
+
+/* kotak kasus & gambar */
+.ctx{border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:10px;padding:12px 14px;margin:0 0 16px;font-size:15px;line-height:1.55}
+.ctx-title{font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--accent);margin-bottom:4px}
+.ctx-body{white-space:pre-line}
+.ctx details{margin-top:8px}
+.ctx summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--accent)}
+.ctx details .ctx-body{margin-top:6px;font-size:14px;color:var(--text)}
+.fig{margin:0 0 16px;border:1px solid var(--border);border-radius:12px;background:var(--surface-2);padding:12px}
+.fig .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fig svg{display:block;max-width:100%;height:auto;margin:0 auto}
+.fig svg.wide{min-width:560px}
+.fig figcaption{font-size:13px;color:var(--muted);text-align:center;margin-top:6px}
+.fig .swipe{display:none;font-size:12.5px;color:var(--accent);text-align:center;margin-top:4px;font-weight:600}
+@media (max-width:620px){ .fig .swipe{display:block} }
+.opt .ofig{flex:none;width:64px;display:grid;place-items:center}
+.opt .ofig svg{width:64px;height:auto;display:block}
+.opt .ofig svg.wide-icon{width:84px}
+.opt .ofig:has(svg.wide-icon){width:84px}
+/* elemen SVG */
+.g-ln{stroke:var(--text);stroke-width:2;fill:none;opacity:.8}
+.g-x{stroke:var(--text);stroke-width:2}
+.g-dash{stroke-dasharray:6 4}
+.g-sep{stroke:var(--border);stroke-width:1.5}
+.g-sym{fill:var(--surface);stroke:var(--text);stroke-width:2}
+.g-sym.g-work{fill:var(--accent-soft)}
+.g-sym.g-own{stroke-width:4.5}
+.g-sym.g-shade{fill:var(--text)}
+.g-hole{fill:none;stroke:var(--accent);stroke-width:2.5;stroke-dasharray:6 4}
+.g-qm{fill:var(--accent);font:800 26px system-ui,sans-serif;text-anchor:middle}
+.g-name{fill:var(--text);font:600 15px system-ui,sans-serif;text-anchor:middle}
+.g-sub{fill:var(--muted);font:13px system-ui,sans-serif;text-anchor:middle}
+.g-mut{fill:var(--muted);font:600 14px system-ui,sans-serif;text-anchor:middle}
+.g-gen{fill:var(--muted);font:700 14px system-ui,sans-serif}
+.g-leg{fill:var(--muted);font:13px system-ui,sans-serif}
+.g-vo,.g-vf,.g-vb{stroke-width:2;fill-opacity:.14}
+.g-vo{fill:#d39b3a;stroke:#c08a2b}
+.g-vf{fill:#7c6fd6;stroke:#6f62cc}
+.g-vb{fill:#2f9e7a;stroke:#2a8e6d}
+.g-vlab{fill:var(--text);font:700 15px system-ui,sans-serif;text-anchor:middle}
+.g-numbg{fill:var(--surface);stroke:var(--text);stroke-width:1.5}
+.g-num{fill:var(--text);font:700 13px system-ui,sans-serif;text-anchor:middle}
 .opts{display:grid;gap:10px}
 .opt{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;padding:13px 14px;border:1.5px solid var(--border);border-radius:12px;background:var(--surface-2);cursor:pointer;transition:border-color .15s,background .15s,opacity .15s}
 .opt:hover:not(:disabled){border-color:var(--accent);background:var(--accent-soft)}
@@ -264,6 +309,8 @@ footer{border-top:1px solid var(--border);padding:18px 16px 28px;text-align:cent
 
     <div class="card">
       <div class="meta" id="qMeta"></div>
+      <div class="ctx" id="qCtx" hidden></div>
+      <figure class="fig" id="qFig" hidden></figure>
       <p class="qtext" id="qText"></p>
       <div class="opts" id="opts"></div>
       <div class="feedback" id="feedback" hidden></div>
@@ -308,13 +355,14 @@ footer{border-top:1px solid var(--border);padding:18px 16px 28px;text-align:cent
 <footer>Ada soal yang membingungkan? Catat <strong>ID soalnya</strong> (mis. <strong>T3-07</strong>) untuk didiskusikan bersama.</footer>
 
 <script>window.QUESTIONS = [];</script>
-<script src="data/t1_genogram.js"></script>
-<script src="data/t2_three_circle.js"></script>
-<script src="data/t3_tata_kelola_keluarga.js"></script>
-<script src="data/t4_tata_kelola_perusahaan.js"></script>
-<script src="data/t5_profesionalisme.js"></script>
-<script src="data/t6_profesional_di_pk.js"></script>
-<script src="data/t7_kepemimpinan.js"></script>
+<script src="pendukung.js?v=2"></script>
+<script src="data/t1_genogram.js?v=2"></script>
+<script src="data/t2_three_circle.js?v=2"></script>
+<script src="data/t3_tata_kelola_keluarga.js?v=2"></script>
+<script src="data/t4_tata_kelola_perusahaan.js?v=2"></script>
+<script src="data/t5_profesionalisme.js?v=2"></script>
+<script src="data/t6_profesional_di_pk.js?v=2"></script>
+<script src="data/t7_kepemimpinan.js?v=2"></script>
 <script>
 (function () {
   "use strict";
@@ -467,6 +515,36 @@ footer{border-top:1px solid var(--border);padding:18px 16px 28px;text-align:cent
     $("#bar").style.width = (answered / S.ids.length * 100) + "%";
   }
 
+  // Kotak kasus: fakta khusus soal (q.ctx) + kasus lengkap yang bisa dibuka (q.kasus)
+  function fillContext(box, q) {
+    box.innerHTML = "";
+    var kasus = q.kasus && window.KASUS && KASUS[q.kasus];
+    if (!q.ctx && !kasus) { box.hidden = true; return; }
+    box.appendChild(el("div", "ctx-title", kasus ? kasus.title : (q.ctxTitle || "Kasus")));
+    if (q.ctx) box.appendChild(el("div", "ctx-body", q.ctx));
+    if (kasus) {
+      var det = el("details");
+      det.appendChild(el("summary", null, "Baca kasus lengkap"));
+      det.appendChild(el("div", "ctx-body", kasus.text));
+      if (!q.ctx) det.open = true;
+      box.appendChild(det);
+    }
+    box.hidden = false;
+  }
+  function fillFigure(box, q) {
+    box.innerHTML = "";
+    var svg = q.fig ? FIG(q.fig) : "";
+    if (!svg) { box.hidden = true; return; }
+    var sc = el("div", "scroll"); sc.innerHTML = svg; box.appendChild(sc);
+    if (q.figCap) box.appendChild(el("figcaption", null, q.figCap));
+    box.hidden = false;
+    if (sc.querySelector("svg.wide")) {
+      box.appendChild(el("div", "swipe", "↔ Geser gambar ke samping untuk melihat seluruhnya"));
+      // mulai dari tengah (generasi pertama); ditunda sampai halaman kuis tampil
+      requestAnimationFrame(function () { sc.scrollLeft = (sc.scrollWidth - sc.clientWidth) / 2; });
+    }
+  }
+
   function renderQuestion() {
     var id = S.ids[S.idx], q = BY_ID[id];
     updateHeader();
@@ -474,12 +552,16 @@ footer{border-top:1px solid var(--border);padding:18px 16px 28px;text-align:cent
     meta.appendChild(el("span", "chip id", q.id));
     meta.appendChild(el("span", "chip", "Topik " + q.topic + " · " + TOPICS[q.topic]));
     meta.appendChild(el("span", "chip lv-" + q.level, LEVELS[q.level] || q.level));
+    if (q.src === "slide") meta.appendChild(el("span", "chip src", "Slide dosen"));
+    fillContext($("#qCtx"), q);
+    fillFigure($("#qFig"), q);
     $("#qText").textContent = q.q;
 
     var list = $("#opts"); list.innerHTML = "";
     S.perm[id].forEach(function (orig, d) {
       var b = el("button", "opt"); b.type = "button"; b.setAttribute("data-orig", orig);
       b.appendChild(el("span", "letter", LETTERS[d]));
+      if (q.optFigs) { var of = el("span", "ofig"); of.innerHTML = FIG(q.optFigs[orig]); b.appendChild(of); }
       b.appendChild(el("span", "otext", q.options[orig]));
       b.addEventListener("click", function () { choose(orig); });
       list.appendChild(b);
@@ -602,6 +684,8 @@ footer{border-top:1px solid var(--border);padding:18px 16px 28px;text-align:cent
       var sm = el("summary"); sm.appendChild(el("span", "chip id", q.id)); sm.appendChild(document.createTextNode(q.q));
       d.appendChild(sm);
       var body = el("div", "wbody");
+      if (q.ctx || q.kasus) { var cx = el("div", "ctx"); fillContext(cx, q); body.appendChild(cx); }
+      if (q.fig) { var fg = el("figure", "fig"); fillFigure(fg, q); body.appendChild(fg); }
       var p1 = el("p"); p1.appendChild(el("span", "tag-bad", "Jawabanmu: ")); p1.appendChild(document.createTextNode(q.options[chosen])); body.appendChild(p1);
       var p2 = el("p"); p2.appendChild(el("span", "tag-ok", "Jawaban benar: ")); p2.appendChild(document.createTextNode(q.options[q.answer])); body.appendChild(p2);
       body.appendChild(el("p", null, q.explain));
